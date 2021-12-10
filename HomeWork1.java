@@ -22,7 +22,7 @@ class HomeWork1 {
 	    int value = 7;
 	
 	    if (value <= 0){
-		    System.out.println("Red");
+		System.out.println("Red");
 	    } else if (value > 0 && value <= 100) {
 		System.out.println("Yellow");
 	    } else if (value > 100) {
