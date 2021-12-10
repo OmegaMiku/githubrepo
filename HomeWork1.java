@@ -13,8 +13,8 @@ class HomeWork1 {
     }
 
     static void checkHomework() {
-	    int a     = 0;
-	    int b     = -10;
+	    int a = 0;
+	    int b = -10;
 	    System.out.println("Sum is " + (a + b >= 0? "positive" : "negative"));
     }
 
@@ -31,8 +31,8 @@ class HomeWork1 {
     }
 
     static void compareNumbers() {
-	    int a     = 115;
-	    int b     = 100;
+	    int a = 115;
+	    int b = 100;
 	    System.out.println(a >= b? "a >= b" : "a < b");
     }	
 }
