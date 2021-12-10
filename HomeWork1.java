@@ -31,13 +31,10 @@ class HomeWork1 {
     }
 	
 	static void compareNumbers() {
-		int a = 101;
+		int a = 107;
 		int b = 100;
-		
-		if (a >= b) {
-			System.out.println("a >= b");
-		} else if (a < b) {
-			System.out.println("a < b");
-		}
+		System.out.println(a >= b? "a >= b" : "a < b");
 	}
-}	
+}
+
+	
