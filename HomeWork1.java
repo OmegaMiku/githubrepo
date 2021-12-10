@@ -1,5 +1,5 @@
 class HomeWork1 {
-    public static void main(String[] args) {
+	    public static void main(String[] args) {
 	    printThreeWords();
 		checkHomework();
 		printColor();
@@ -31,10 +31,10 @@ class HomeWork1 {
     }
 	
 	static void compareNumbers() {
-		int a = 107;
+		int a = 105;
 		int b = 100;
 		System.out.println(a >= b? "a >= b" : "a < b");
-	}
+    }	
 }
 
 	
