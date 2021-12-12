@@ -6,18 +6,14 @@
  */
 class HomeWork2 {
     public static void main(String[]args) {
-        System.out.println(within10to20(7, 7));
+        System.out.println(within10to20(20, 7));
         System.out.println(isPositiveOrNegative(7));
-        System.out.println(isNegative(7));
+        System.out.println(isNegative(-9));
         printWordTimes("word", 5);
     }
 
     static boolean within10to20(int a, int b) {
-        if (a + b >= 10 && a + b <= 20) {
-            return true;
-        } else {
-            return false;
-        }
+        return (a + b >= 10 && a + b <= 20) ? true : false;
     }
 
     static String isPositiveOrNegative(int a) {
@@ -25,11 +21,7 @@ class HomeWork2 {
     }
 
     static boolean isNegative(int a) {
-        if (a < 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return (a < 0) ? true : false;
     }
 
     static void printWordTimes(String text, int times) {
