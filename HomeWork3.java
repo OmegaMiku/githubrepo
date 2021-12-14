@@ -1,5 +1,5 @@
 /**
- * Java 1. Homework 2
+ * Java 1. Homework 3
  *
  * @author Pavel Ermilov
  * @version 13.12.2021 - 14.12.2021
