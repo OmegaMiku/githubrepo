@@ -100,10 +100,7 @@ class TicTacToe {
     boolean isWin(char ch) {
         // вертикаль/горизонталь
         for (int i = 0; i < table.length; i++) {
-            if (table[i][0] == ch && table[i][1] == ch && table[i][2] == ch) {
-                return true;
-            }
-            if (table[0][i] == ch && table[1][i] == ch && table[2][i] == ch) {
+            if ((table[i][0] == ch && table[i][1] == ch && table[i][2] == ch) || (table[0][i] == ch && table[1][i] == ch && table[2][i] == ch)) {
                 return true;
             }
         }
