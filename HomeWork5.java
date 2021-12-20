@@ -13,7 +13,7 @@ class HomeWork5 {
             empArr[2] = new Employee("Howard Wolowitz", "Accountant", "hw@mailbox.com", 892512312, 50000, 45);
             empArr[3] = new Employee("Toph Bei Fong", "Secretary", "tbf@mailbox.com", 892612312, 30000, 18);
             empArr[4] = new Employee("Gundar Gundarson", "Security guard", "gg@mailbox.com", 892712312, 30000, 40);
-        for (Employee employee: empArr) {
+        for (Employee employee : empArr) {
             if (employee.getAge() > 40) {
                 System.out.println(employee);
             }
