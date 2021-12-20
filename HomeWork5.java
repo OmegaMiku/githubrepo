@@ -7,8 +7,8 @@
 
 class HomeWork5 {
     public static void main(String[]args) {
-        Employee[]empArr = new Employee[5];
-            empArr[0] = new Employee("Ivanov Ivan", "Engineer", "jb@mailbox.com", 892312312, 70000, 41);
+        Employee[] empArr = new Employee[5];
+            empArr[0] = new Employee("Ivanov Ivan", "Engineer", "ii@mailbox.com", 892312312, 70000, 41);
             empArr[1] = new Employee("Tajmahal Badalandabad", "Developer", "tb@mailbox.com", 892412312, 100000, 52);
             empArr[2] = new Employee("Howard Wolowitz", "Accountant", "hw@mailbox.com", 892512312, 50000, 45);
             empArr[3] = new Employee("Toph Bei Fong", "Secretary", "tbf@mailbox.com", 892612312, 30000, 18);
