@@ -171,7 +171,7 @@
       "id": "5dc80f9b-0a6d-40ed-9034-d32caf74a581",
       "comment": "",
       "command": "mouseOver",
-      "target": "xpath=//ul[@class='product_list grid row']/li",
+      "target": "xpath=//ul[@class='product_list grid row']/li/div",
       "targets": [],
       "value": ""
     }, {
